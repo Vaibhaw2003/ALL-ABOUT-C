@@ -47,13 +47,29 @@ int main(){
   // & is used to store the age in the variable.
 
     #include<stdio.h>
-    int main(){
-        int a;
+    int main()
+     /* int a;
         printf("Enter a age: ");
         scanf("%d", &a);// & is used to store the value in the variable.
         fflush(stdin); // fflush is used to clear the input buffer.
-        printf("Your age is: %d", a); // %d is used to print integer value.
-    }
+        printf("Your age is: %d", a); // %d is used to print integer value.  */
 
+
+
+        // if else condition in C language -----------
+         {  
+int a;
+printf("Enter your age: ");
+scanf("%d", &a);
+fflush(stdin);
+    if (a==0)
+    {
+    printf("You are not born yet");
+    }else
+    {
+        printf("You are born ");
+        
+    }
+  }
 
     
