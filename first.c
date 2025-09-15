@@ -55,9 +55,8 @@ int main(){
         printf("Your age is: %d", a); // %d is used to print integer value.  */
 
 
-
-        // if else condition in C language -----------
-         {  
+  // if else condition in C language -----------
+    /*    {  
 int a;
 printf("Entern a number: ");
 scanf("%d", &a);
@@ -72,6 +71,28 @@ fflush(stdin);
         printf("greater number");
         
     }
-  }
+  }  */
 
+
+
+    // if else if condition in C language -----------
+     {
+        int a,b,c;
+        printf("Enter a number: ");
+        scanf("%d", &a,&b,&c);
+        fflush(stdin);
+    
+        if (a>b && a>c)
+        {
+            printf("a is greater");
+        }
+        else if (b>a && b>c)
+        {
+            printf("b is greater");
+        }
+        else
+        {
+            printf("c is greater");
+        }
+     }  
     
