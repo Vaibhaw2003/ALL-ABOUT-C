@@ -59,15 +59,17 @@ int main(){
         // if else condition in C language -----------
          {  
 int a;
-printf("Enter your age: ");
+printf("Entern a number: ");
 scanf("%d", &a);
 fflush(stdin);
-    if (a==0)
+
+    if (a<=999)
     {
-    printf("You are not born yet");
-    }else
+    printf("smaller number");
+    }
+    else
     {
-        printf("You are born ");
+        printf("greater number");
         
     }
   }
